@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'hamburguer heaven' ;
+    src: url(../fontes/hamburger_heaven/HAMBH___.TTF)format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte-botao: 'hamburguer heaven', 'cursive';
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: #76b9d3;
+}
+
+main{
+    background: url(../imagens/WhatsApp\ Image\ 2021-08-31\ at\ 15.46.44.jpeg);
+    margin: auto;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 600px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+
+}
+
+header img{
+    display: block;
+    width: 250px;
+    height: 300px;
+    margin: 0px auto 60px auto;
+    padding: 0px;
+}
+
+section.botoes > button{
+    display: block;
+    background-color: #FFD142;
+    border: 3px solid black;
+    margin: 10px auto 20px auto;
+    padding: 0px;
+    border-radius: 10px;
+    width: 210px;
+    height: 33px;
+    text-align: center;
+    box-shadow: 3px 4px 7px 2px rgba(0, 0, 0, 0.938);
+}
+
+#pedido{
+    background-image: url(../imagens/whatsapp.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
+#cardapio{
+    background-image: url(../imagens/comida-rapida.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    
+}
+
+#telefone{
+    background-image: url(../imagens/chamada-telefonica.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
+#ifood{
+    background-color: #db0000;
+    background-image: url(../imagens/ifood-logo-17.png);
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    background-position-y: 50%;
+    width: 230px;
+    height: 43px;
+
+}
+
+#ifood a{
+    color: white;
+    float: left;
+    padding-left: 35px;
+    margin: 0px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.952);
+}
+
+#ifood a:hover{
+    color: rgba(255, 255, 255, 0.932);
+}
+
+#ifood a:active{
+    color: gray;
+}
+
+button > a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-botao);
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+button > a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.918);
+}
+
+button > a:active{
+    color: rgb(224, 60, 0);
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #426c79;
+    margin: 30px auto 0px auto;
+    padding: 8px;
+    text-align: center;
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+footer a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+}
+
+footer p a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 138);
+}
+
+footer a:active{
+    color: rgb(221, 60, 2);
+}
