@@ -150,25 +150,29 @@ footer{
     font-weight: bold;
 }
 
-footer > a{
-    color: black;
+footer p{
+    color: white;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+footer p > a{
+    color: white;
+}
+
+footer p a:hover{
+    color: rgb(12, 12, 117);
+}
+
+div.creditos{
     font-weight: bold;
-    text-decoration: none;
+    font-size: 0.8em;
 }
 
-footer > p{
-    color: white;
+div.creditos > a{
+    color: black;
 }
 
-footer > p > a{
-    color: white;
-}
-
-footer > a:hover{
-    text-decoration: underline;
-    color: rgb(0, 0, 138);
-}
-
-footer > a:active{
-    color: rgb(221, 60, 2);
+div.creditos > a:hover{
+    color: rgb(12, 12, 117);
 }
