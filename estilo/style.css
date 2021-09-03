@@ -27,6 +27,8 @@ main{
     padding: 20px;
     min-width: 300px;
     max-width: 600px;
+    min-height: 600px;
+    max-height: 1000px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
@@ -35,23 +37,44 @@ main{
 
 header img{
     display: block;
-    width: 250px;
-    height: 300px;
+    width: 221px;
+    height: 251px;
     margin: 0px auto 60px auto;
     padding: 0px;
 }
 
-section.botoes > button{
+section.botoes > a{
     display: block;
-    background-color: #FFD142;
+    background-color: #ffcb2e;
     border: 3px solid black;
     margin: 10px auto 20px auto;
-    padding: 0px;
+    padding: 1px 0px 0px 0px;
     border-radius: 10px;
     width: 210px;
     height: 33px;
     text-align: center;
     box-shadow: 3px 4px 7px 2px rgba(0, 0, 0, 0.938);
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-botao);
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+section.botoes p{
+    margin-top: 3px;
+}
+
+section.botoes a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.918);
+    
+}
+
+section.botoes a:active{
+    color: rgb(224, 60, 0);
+    transform: translateY(2px);
+    box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 94%);
 }
 
 #pedido{
@@ -73,54 +96,52 @@ section.botoes > button{
     background-position: 10%;
 }
 
-#ifood{
+section.botaoifood > a{
+    display: block;
     background-color: #db0000;
-    background-image: url(../imagens/ifood-logo-17.png);
-    background-repeat: no-repeat;
-    background-position-x: 85%;
-    background-position-y: 50%;
+    border: 3px solid black;
+    margin: 10px auto 20px auto;
+    padding: 1px 0px 0px 0px;
+    border-radius: 10px;
     width: 230px;
     height: 43px;
-
-}
-
-#ifood a{
-    color: white;
-    float: left;
-    padding-left: 35px;
-    margin: 0px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.952);
-}
-
-#ifood a:hover{
-    color: rgba(255, 255, 255, 0.932);
-}
-
-#ifood a:active{
-    color: gray;
-}
-
-button > a{
+    text-align: center;
+    box-shadow: 3px 4px 7px 2px rgba(0, 0, 0, 0.938);
     text-decoration: none;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.952);
     font-family: var(--fonte-botao);
     font-weight: bold;
     font-size: 16pt;
 }
 
-button > a:hover{
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.918);
+section.botaoifood  p{
+    margin-top: 8px;
+    margin-left: 0px;
+    padding-right: 70px;
 }
 
-button > a:active{
-    color: rgb(224, 60, 0);
-    text-decoration: underline;
+section.botaoifood  a:hover{
+        text-decoration: underline;
+        color: rgba(255, 255, 255, 0.932);
+}
+
+section.botaoifood > a:active{
+    color: gray;
+    transform: translateY(2px);
+    box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 94%);
+}
+
+#ifood{
+    background-image: url(../imagens/ifood-logo-17.png);
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    background-position-y: 50%;
 }
 
 footer{
     background-color: #426c79;
-    margin: 1px auto 0px auto;
+    margin: 3px auto 0px auto;
     padding: 8px;
     padding-bottom: 0px;
     text-align: center;
@@ -129,25 +150,25 @@ footer{
     font-weight: bold;
 }
 
-footer a{
+footer > a{
     color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
-footer p{
+footer > p{
     color: white;
 }
 
-footer p a{
+footer > p > a{
     color: white;
 }
 
-footer a:hover{
+footer > a:hover{
     text-decoration: underline;
     color: rgb(0, 0, 138);
 }
 
-footer a:active{
+footer > a:active{
     color: rgb(221, 60, 2);
 }
