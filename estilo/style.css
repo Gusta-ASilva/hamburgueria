@@ -6,6 +6,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ferro rosso' ;
+    src: url(../fontes/ferro_rosso/FerroRosso.ttf)format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,7 +21,7 @@
 :root{
     --fonte-botao: 'hamburguer heaven', 'cursive';
     --fonte-padrao: Arial, Helvetica, sans-serif;
-
+    --fonte-menu: 'ferro rosso', sans-serif;
 }
 
 body{
@@ -39,7 +46,7 @@ body.cardapios{
     background-color: #9885bd;
 }
 
-#cardapio2, #cardapio3, #cardapio4{
+#cardapio1,#cardapio2, #cardapio3, #cardapio4{
     display: block;
     padding: 0px;
     max-width: 600px;
@@ -154,7 +161,7 @@ section.botaoifood > a:active{
 }
 
 footer{
-    background-color: #426c79;
+    background-color: #131552;
     margin: 3px auto 0px auto;
     padding: 8px;
     padding-bottom: 0px;
@@ -189,4 +196,80 @@ div.creditos > a{
 
 div.creditos > a:hover{
     color: rgb(12, 12, 117);
+}
+
+header.menu-cardapio{
+    background-color: #131552;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    margin-bottom: 2px;
+    padding: 10px;
+    height: 90px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 7px 9px #00000077;
+}
+
+#logo{
+    display: inline;
+    width: 80px;
+    height: 90px;
+    margin: 0px 0px 0px 150px;
+}
+
+@media (max-width: 500px){
+    #logo{
+        display: inline;
+        width: 80px;
+        height: 90px;
+        margin: 0px 41% 0px 0%;
+    }
+}
+
+@media (max-width: 375px){
+    #logo{
+        display: inline;
+        width: 80px;
+        height: 90px;
+        margin: 0px 18% 0px 0%;
+    }    
+}
+
+@media (max-width: 320px){
+    #logo{
+        display: inline;
+        width: 80px;
+        height: 90px;
+        margin: 0px 4% 0px 0%;
+    }    
+}
+.navegacao{
+    float: right;
+    margin-top: 35px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-botao);
+    font-weight: normal;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+    margin: 0px 0px 0px 0px;
+}
+
+.navegacao .ativo, .navegacao a:hover{
+    color: #ffcb2e;
+    background-color: black;
+} 
+
+header.menu-cardapio > p{
+    color: #f5c534;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: var(--fonte-botao);
+    letter-spacing: 2px;
+    text-decoration: underline;
 }
