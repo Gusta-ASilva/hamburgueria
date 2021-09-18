@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: #9885bdbb;
+    background-color: #9885bde0;
 }
 
 main{
@@ -33,6 +33,19 @@ main{
     border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
 
+}
+
+body.cardapios{
+    background-color: #9885bd;
+}
+
+#cardapio2, #cardapio3, #cardapio4{
+    display: block;
+    padding: 0px;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0px auto 5px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
 }
 
 header img{
@@ -151,13 +164,13 @@ footer{
 }
 
 footer p{
-    color: white;
-    font-weight: normal;
-    font-size: 0.9em;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8em;
 }
 
 footer p > a{
-    color: white;
+    color: black;
 }
 
 footer p a:hover{
