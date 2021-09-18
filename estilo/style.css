@@ -27,7 +27,7 @@ main{
     padding: 20px;
     min-width: 300px;
     max-width: 600px;
-    min-height: 670px;
+    min-height: 700px;
     max-height: 1366px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -42,10 +42,9 @@ body.cardapios{
 #cardapio2, #cardapio3, #cardapio4{
     display: block;
     padding: 0px;
-    padding-left: 1px;
-    padding-right: 1px;
     max-width: 600px;
     min-width: 300px;
+    min-height: 670px;
     width: 99%;
     margin: 0px auto 5px auto;
 }
