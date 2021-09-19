@@ -216,7 +216,7 @@ header.menu-cardapio{
     margin: 0px 0px 0px 150px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
     #logo{
         display: inline;
         width: 80px;
@@ -234,7 +234,7 @@ header.menu-cardapio{
     }    
 }
 
-@media (max-width: 300px){
+@media (max-width: 280px){
     #logo{
         display: inline;
         width: 80px;
