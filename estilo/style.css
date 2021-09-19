@@ -216,6 +216,15 @@ header.menu-cardapio{
     margin: 0px 0px 0px 150px;
 }
 
+@media (max-width: 500px){
+    #logo{
+        display: inline;
+        width: 80px;
+        height: 90px;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
 @media (max-width: 400px){
     #logo{
         display: inline;
@@ -230,11 +239,19 @@ header.menu-cardapio{
         display: inline;
         width: 80px;
         height: 90px;
-        margin: 0px 18% 0px 0%;
+        margin: 0px 7% 0px 0%;
     }    
 }
 
-@media (max-width: 280px){
+@media (max-width: 343px){
+    #logo{
+        display: inline;
+        width: 80px;
+        height: 90px;
+        margin: 0px 5% 0px 0%;
+    }    
+}
+@media (max-width: 320px){
     #logo{
         display: inline;
         width: 80px;
