@@ -225,14 +225,16 @@ header.menu-cardapio{
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
     #logo{
         display: inline;
         width: 80px;
         height: 90px;
-        margin: 0px 41% 0px 0%;
+        margin: 0px 15% 0px 0%;
     }
 }
+
+
 
 @media (max-width: 375px){
     #logo{
